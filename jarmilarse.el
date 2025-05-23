@@ -1,4 +1,6 @@
 ;; some util commands about git
+(provide 'jarmilarse)
+
 (eval-when-compile (require 'subr-x))
 
 (defun jmls-command (command)
